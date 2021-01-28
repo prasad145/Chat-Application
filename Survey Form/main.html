@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id = "title"> Student Survey Form</h1>
+    <p id = "description">
+        Take this survey and help us to improve, Thank you!
+    </p>
+    <div id = "main_heading">
+        <form id = "survey_form" action="">
+            <p>Name </p> <input type="text" name="name" id="fullname" placeholder="enter your name here" required>
+            <p>Email </p> <input type="email" name="email" id="email" placeholder="email id" required>
+            <p>Semester </p> 
+            <select name="sem" id="sem" required>
+                <option value="#">select Current semester</option>
+                <option value="1">1st Sem</option>
+                <option value="2">2nd Sem</option>
+                <option value="3">3rd Sem</option>
+                <option value="4">4th Sem</option>
+                <option value="5">5th Sem</option>
+                <option value="6">6th Sem</option>
+                <option value="7">7th Sem</option>
+                <option value="8">8th Sem</option>
+            </select>   
+            <p>Section </p> <input type="text" name="sec" id="sec" placeholder="Section" required>
+            <p>Suggestion </p> <textarea name="sug" id="sug" cols="40" rows="5" placeholder="write your suggestion here.." required></textarea>
+            <br>
+            <input type="submit" id = "submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
