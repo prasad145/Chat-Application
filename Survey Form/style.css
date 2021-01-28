@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(#0cb0b6, rgb(15, 168, 148));
+    color: whitesmoke;
+}
+
+#title{
+    font-size: 45px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#main_heading{
+    width : 80%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(65, 12, 163, 0.37);
+    font-size: 30px;
+    color: white;
+}
+
+#fullname, #email, #sem, #sec{
+    width: 80%;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#sug{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+}
+
+input[type = "submit"]
+{
+    widows: 150px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border:none;
+    margin-top: 10px;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+}
+
+
+
