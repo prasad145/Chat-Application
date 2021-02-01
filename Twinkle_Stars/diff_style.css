@@ -7,17 +7,27 @@
 }
 
 .star-1{
-    margin-top: 15%;
+    position: absolute;
+    margin-top: 25%;
     margin-left: 60%;
-    animation-name: twinkle-1;
+    animation-name: twinkle;
     animation-duration: 1s;
 }
 
 .star-2{
-    margin-top: 25%;
+    position: absolute;
+    margin-top: 35%;
     margin-left: 25%;
-    animation-name: twinkle-2;
-    animation-duration: 1s;
+    animation-name: twinkle;
+    animation-duration: 0.8s;
+}
+
+.star-3{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 75%;
+    animation-name: twinkle;
+    animation-duration: 1.1s;
 }
 
 #back{
@@ -31,15 +41,8 @@
     background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
 }
 
-@keyframes twinkle-1{
-    50%{
-        transform: scale(0.5);
-        opacity: 0.5;
-    }
-}
-
-@keyframes twinkle-2{
-    75%{
+@keyframes twinkle{
+    20%{
         transform: scale(0.5);
         opacity: 0.5;
     }
