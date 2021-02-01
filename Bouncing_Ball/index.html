@@ -8,11 +8,11 @@
         body{
             background-color: black;
         }
-        #ball{
+        .ball{
             width: 100px;
             height: 100px;
             margin: 50px auto;
-            position: relative;
+            position: fixed;
             border-radius: 50%;
             border: 1px solid red;
             background: linear-gradient(35deg, #ccffff, #ffcccc);
@@ -21,14 +21,23 @@
             animation-iteration-count: infinite;
         }
 
+        #ball-1{    
+            left: 27%;
+            animation-timing-function: ease-in;
+        }
+        #ball-2{
+            left: 56%;
+            animation-timing-function: ease-out;
+        }
+
         @keyframes bounce{
             0%{
                 top: 0px;
             }
             50%{
                 top: 249px;
-                width: 130px;
-                height: 70px;
+               /* width: 130px;
+                height: 70px; */
             }
             100%{
                 top: 0px;
@@ -37,6 +46,7 @@
     </style>
 </head>
 <body>
-    <div id = "ball"></div>
+    <div class = "ball" id = "ball-1"></div>
+    <div class = "ball" id = "ball-2"></div>
 </body>
 </html>
