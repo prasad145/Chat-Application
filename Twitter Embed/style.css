@@ -1,14 +1,12 @@
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
-  
 }
 
 header {
   display: flex;
   flex-direction: row;
-  background-color: #347ce9;
 }
 
 header .profile-thumbnail {
@@ -43,7 +41,7 @@ header h4 {
 }
 
 #inner p {
-    background-color: #347ce9;
+  background-color: #347ce9;
   margin-bottom: 10px;
   font-size: 20px;
 }
@@ -82,5 +80,3 @@ footer .cta button {
   border: 0;
   background: transparent;
 }
-
-
