@@ -48,6 +48,11 @@ img{
         font-size: 1rem;
     }
 }
+
+i{
+    font-weight: bold;
+}
+
 #title{
     box-shadow: 0 0 10px 5px #999;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
